@@ -1,0 +1,75 @@
+/* analytics.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background for the entire page */
+  }
+  
+  /* Container for the analytics section */
+  .analytics-container {
+    max-width: 900px; /* Limits the container width */
+    margin: 40px auto; /* Centers the container and adds spacing on top */
+    padding: 30px;
+   /* Background image */
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-color: white; /* White background under the image */
+    border-radius: 12px; /* Rounded corners */
+    color: #000; /* Black text for readability */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  }
+  
+  /* Heading style */
+  .analytics-heading {
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333; /* Neutral dark shade for the heading */
+    text-align: center;
+  }
+  
+  /* Data section with transparent background */
+  .analytics-data {
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for clean look */
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    border: 1px solid #ddd; /* Subtle border for better definition */
+  }
+  
+  /* Preformatted text inside the data section */
+  .analytics-data pre {
+    text-align: left;
+    white-space: pre-wrap; /* Allows wrapping of long text */
+    word-wrap: break-word;
+    color: #333; /* Neutral dark shade for text */
+  }
+  
+  /* No data message */
+  .analytics-no-data {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #e74c3c; /* Red color for no-data message */
+    text-align: center;
+  }
+  
+  /* Styling for responsive layout if needed */
+  @media (max-width: 768px) {
+    .analytics-container {
+      padding: 20px;
+    }
+  
+    .analytics-heading {
+      font-size: 24px;
+    }
+  
+    .analytics-data {
+      font-size: 14px;
+      padding: 15px;
+    }
+  }
+  

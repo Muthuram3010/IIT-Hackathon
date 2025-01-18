@@ -1,0 +1,152 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://theacademic.com/wp-content/uploads/2023/09/neliti_AI_in_teaching_and_learning_4K_ultrarestics_28f38230-ca84-411c-ad90-af1e1000e1b4.png'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Makes the background stay fixed when scrolling */
+  color: #333; /* Default text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white; /* Darker headings */
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 0;
+  color : white;
+
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent navbar */
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffa500; /* Orange color on hover */
+}
+
+/* Page Container */
+.page-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* White semi-transparent background */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Page */
+.dashboard-heading {
+  font-size: 32px;
+  text-align: center;
+  color: white; /* Dark blue color */
+}
+
+.dashboard-content {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Courses Page */
+.courses-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.course-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Login Page */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #27ae60;
+}
+
+/* Analytics Page */
+.analytics-heading {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.analytics-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer (Optional) */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  margin-top: 40px;
+}
